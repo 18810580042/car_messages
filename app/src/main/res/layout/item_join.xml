@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/item_join_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48">
+        <TextView
+            android:id="@+id/item_join_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_17"
+            android:text="@string/car_number"
+            android:textColor="@color/colorblack"
+            android:textSize="@dimen/sp_15" />
+
+        <TextView
+            android:id="@+id/item_join_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dp_20"
+            android:text="冀A12345"
+            android:textColor="@color/color_999999"
+            android:textSize="@dimen/sp_13" />
+
+        <ImageView
+            android:id="@+id/item_imgback_join"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ucrop_more_1x"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:layout_alignParentBottom="true"
+            android:background="@color/view_by" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

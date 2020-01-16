@@ -1,0 +1,2 @@
+include ':app', ':okhttputils', ':picture_library', ':ucrop', ':webSocketLibs', ':sofia'
+rootProject.name='car_message'

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".fragment.MineFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/mine_tal"
+            layout="@layout/layout_tal_show"></include>
+
+        <RelativeLayout
+            android:id="@+id/mine_head_rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mine_tal"
+            android:padding="@dimen/dp_5">
+
+            <ImageView
+                android:id="@+id/img_head_mine"
+                android:layout_width="@dimen/dp_60"
+                android:layout_height="@dimen/dp_60"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_14"
+                android:src="@drawable/iv_no_scan_data"></ImageView>
+
+            <TextView
+                android:id="@+id/text_headname_mine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_100"
+                android:layout_marginTop="@dimen/dp_27"
+                android:text="15737340686"
+                android:textColor="@color/color_222222"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:id="@+id/text_headmath_mine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_100"
+                android:layout_marginTop="@dimen/dp_52"
+                android:text="本月出勤天数: 20"
+                android:textColor="@color/text_gray"
+                android:textSize="@dimen/sp_13" />
+
+            <ImageView
+                android:layout_width="@dimen/dp_30"
+                android:layout_height="@dimen/dp_30"
+                android:src="@drawable/ucrop_more_1x"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/dp_10"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_10"
+            android:layout_below="@+id/mine_head_rl"
+            android:layout_marginTop="@dimen/dp_5"
+            android:background="@color/view_by" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_mine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mine_head_rl"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_25"
+            android:layout_marginRight="@dimen/dp_20" />
+
+        <Button
+            android:id="@+id/mine_outof_login"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48"
+            android:layout_below="@id/rv_mine"
+            android:layout_marginLeft="@dimen/dp_15"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_15"
+            android:background="@drawable/btn_mine_color"
+            android:text="退出登录"
+            android:textColor="@color/color_888888"
+            android:textSize="@dimen/sp_16" />
+    </RelativeLayout>
+
+</FrameLayout>

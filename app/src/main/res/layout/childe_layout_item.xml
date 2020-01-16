@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_24"
+    android:background="@drawable/barkgroun_shape">
+
+    <TextView
+        android:id="@+id/child_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dp_28"
+        android:text="@string/car_number"
+        android:textColor="@color/colorblack"
+        android:textSize="@dimen/sp_12" />
+
+    <TextView
+        android:id="@+id/chlid_item_yeartime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dp_22"
+        android:text="2019.09.22"
+        android:textColor="@color/color_999999"
+        android:textSize="@dimen/sp_12" />
+</RelativeLayout>

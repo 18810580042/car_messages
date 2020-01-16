@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.PlaybackActivity">
+
+    <include
+        android:id="@+id/playback_tal"
+        layout="@layout/layout_tal_show" />
+
+    <RelativeLayout
+        android:id="@+id/playback_rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_304"
+        android:layout_below="@+id/playback_tal">
+
+        <com.amap.api.maps.MapView
+            android:id="@+id/map_playback"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/move"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:text="开始" />
+
+        <Button
+            android:id="@+id/pause"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:layout_toRightOf="@+id/move"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:text="暂停" />
+
+        <Button
+            android:id="@+id/resume"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:text="继续" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/playback_rl">
+
+    </RelativeLayout>
+
+</RelativeLayout>

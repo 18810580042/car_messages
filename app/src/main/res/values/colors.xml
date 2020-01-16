@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="color_ff5b5b">#FF5B5B</color>
+    <color name="color_f0f0f0">#F0F0F0</color>
+    <color name="color_888888">#888888</color>
+    <color name="tal_background">#0D8BF2</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="view_by">#E6E6E6</color>
+    <color name="view_f2f2f2">#F2F2F2</color>
+    <color name="result_view">#b0000000</color>
+    <color name="color_00409A">#00409A</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_1B83FF">#1B83FF</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="color_837E7B">#837E7B</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="color_f5f5f5">#F5F5F5</color>
+    <color name="viewfinder_mask">#60000000</color>
+
+    <color name="lightgreen">#99CC33</color>
+
+    <!--按钮背景-->
+
+    <color name="black">#444444</color>
+    <color name="color_222222">#474747</color>
+    <color name="page_backgroup">#ffffff</color>
+    <color name="white">#FFFFFF</color>
+
+    <!--文本文字颜色-->
+    <color name="gray_light">#EBEDF0</color>
+    <color name="text_gray">#888888</color>
+    <color name="blue">#3CA5F6</color>
+    <color name="colorblack">#333333</color>
+    <color name="colorblue34">#346FA9</color>
+    <color name="discount_red">#e93424</color>
+    <!--mine-->
+    <color name="green">#00ff00</color>
+    <color name="red">#f00</color>
+    <color name="color_red">#FF4C37</color>
+    <drawable name="transparent_background">#00000000</drawable>
+    <color name="line">#F1F4F6</color>
+    <color name="info">#ed9d47</color>
+    <color name="report_color">#999999</color>
+    <color name="color_ddddd">#DDDDDD</color>
+    <color name="color_msg">#B6B6B6</color>
+    <color name="color_dadada">#DADADA</color>
+    <color name="color_555555">#555555</color>
+    <color name="color_989898">#989898</color>
+    <color name="discount_color">#6B7CD5</color>
+    <color name="change_type">#294cd6</color>
+    <color name="color_f1f3f5">#f1f3f5</color>
+    <color name="color_444444">#444444</color>
+    <color name="color_4a4a4a">#4a4a4a</color>
+    <color name="color_e0e0e0">#e0e0e0</color>
+    <color name="color_fafafa">#fafafa</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_barcode">#909393</color>
+    <color name="color_input">#A5A5A5</color>
+    <color name="color_b6b6b6">#b6b6b6</color>
+    <color name="color_40a5f3">#40a5f3</color>
+    <color name="color_3dd3a7">#3dd3a7</color>
+    <color name="color_5184f6">#5184f6</color>
+    <color name="color_ffe1d0">#ffe1d0</color>
+    <color name="color_80a7fd">#80a7fd</color>
+    <color name="color_eeeeee">#eeeeee</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_97938a">#97938a</color>
+    <color name="color_64564f">#64564f</color>
+    <color name="color_458de0">#458DE0</color>
+    <color name="super_light_grey">#9f9f9f</color>
+    <color name="tab_indicator">#d6d6d6</color>
+    <color name="tab_tv_normal">#999999</color>
+    <color name="tab_tv_selected">#45c01a</color>
+    <color name="tab_bg">#fcfcfc</color>
+    <color name="tab_div">#d6d6d6</color>
+</resources>

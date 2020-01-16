@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RemoteActivity">
+
+    <include
+        android:id="@+id/remote_tal"
+        layout="@layout/layout_tal_show" />
+
+    <com.example.car_message.utils.AutoAdjustHeightExpendListView
+        android:id="@+id/remote_edlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/remote_tal"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginTop="@dimen/dp_11"
+        android:layout_marginRight="@dimen/dp_15"
+        android:background="@drawable/barkgroun_shape"
+        android:childDivider="@color/white"
+        android:divider="@color/report_color"
+        android:dividerHeight="@dimen/dp_5"
+        android:groupIndicator="@null"
+        android:scrollbars="none" />
+</RelativeLayout>

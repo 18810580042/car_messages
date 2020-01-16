@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    tools:context=".fragment.MessageFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <include
+            android:id="@+id/tal_message"
+            layout="@layout/layout_tal_show"></include>
+
+        <RelativeLayout
+            android:id="@+id/message_head"
+            android:layout_width="@dimen/dp_330"
+            android:layout_height="@dimen/dp_127"
+            android:layout_below="@+id/tal_message"
+            android:layout_marginLeft="@dimen/dp_15"
+            android:layout_marginTop="@dimen/dp_11"
+            android:layout_marginRight="@dimen/dp_15"
+            android:background="@drawable/barkgroun_shape">
+
+            <ImageView
+                android:id="@+id/remind_img"
+                android:layout_width="@dimen/dp_50"
+                android:layout_height="@dimen/dp_50"
+                android:layout_marginLeft="@dimen/dp_24"
+                android:layout_marginTop="@dimen/dp_25"
+                android:src="@mipmap/group" />
+
+            <TextView
+                android:id="@+id/remind_text"
+                android:layout_width="@dimen/dp_50"
+                android:layout_height="@dimen/dp_50"
+                android:layout_below="@+id/remind_img"
+                android:layout_marginLeft="@dimen/dp_35"
+                android:layout_marginTop="@dimen/dp_11"
+                android:text="@string/reming_text"
+                android:textColor="@color/color_666666"
+                android:textSize="@dimen/sp_14" />
+
+            <ImageView
+                android:id="@+id/warning_img"
+                android:layout_width="@dimen/dp_50"
+                android:layout_height="@dimen/dp_50"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/dp_25"
+                android:src="@mipmap/group_two" />
+
+            <TextView
+                android:id="@+id/warning_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/warning_img"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/dp_11"
+                android:text="@string/warning_text"
+                android:textColor="@color/color_666666"
+                android:textSize="@dimen/sp_14" />
+
+            <ImageView
+                android:id="@+id/approve_img"
+                android:layout_width="@dimen/dp_50"
+                android:layout_height="@dimen/dp_50"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/dp_25"
+                android:layout_marginRight="@dimen/dp_21"
+                android:src="@mipmap/group_one" />
+
+            <TextView
+                android:id="@+id/approve_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/approve_img"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/dp_11"
+                android:layout_marginRight="@dimen/dp_32"
+                android:text="@string/approve_text"
+                android:textColor="@color/color_666666"
+                android:textSize="@dimen/sp_14" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/text_npc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_15"
+            android:layout_below="@+id/message_head"
+            android:layout_marginTop="@dimen/dp_17"
+            android:text="@string/newmessage_text"
+            android:textColor="@color/colorblack"
+            android:textSize="@dimen/sp_16" />
+
+        <com.example.car_message.utils.AutoAdjustHeightExpendListView
+            android:id="@+id/message_list"
+            android:groupIndicator="@null"
+            android:background="@drawable/barkgroun_shape"
+            android:childDivider="@color/white"
+
+            android:dividerHeight="@dimen/dp_5"
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/text_npc"
+            android:layout_marginLeft="@dimen/dp_15"
+            android:layout_marginTop="@dimen/dp_11"
+            android:layout_marginRight="@dimen/dp_15" />
+    </RelativeLayout>
+
+</ScrollView>
